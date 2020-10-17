@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch-Users-Homework</title>
+    <style>
+        .filter1Users {
+            color: blue;
+        }
+        .allUsers {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="usersStatus">
+        <h4>
+            Total Users:    <span id="idTotalUsers">??</span>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+            <span class="filter1Users">Filter1:</span>   <span id="idFilter1" class="filter1Users">F1</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+        </h4>
+    </div>
+    <div id="todosButtons">
+        <button id="btnShowAll">All Users</button>
+        <button id="btnShowFilter1" title="filter where company name like 'Romaguera'. Just use it as an Example">Filter1 Users</button>
+        <button id="btnAbout">About</button>
+    </div>
+    <div id="usersListMainContainer">
+        <h4 id="usersListHeader">
+            Users List - now showing <strong id="idNowShowing"> AA </strong>
+        </h4>
+        <div id="usersList">
+           ....     
+        </div>
+    </div>
+</body>
+
+<script src="fetch-Users-classes.js"></script>
+</html>
